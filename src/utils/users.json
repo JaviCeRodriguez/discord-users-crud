@@ -1,0 +1,44 @@
+[
+    {
+        "username": "Homer Simpson",
+        "discriminant": "7797",
+        "image": "http://forbes.es/wp-content/uploads/2017/05/201518111521_1.jpg",
+        "status": 3
+    },
+    {
+        "username": "Marge Simpson",
+        "discriminant": "2410",
+        "image": "https://i.pinimg.com/originals/cc/6c/40/cc6c40adc29c379bda34850185cfaa09.png",
+        "status": 1
+    },
+    {
+        "username": "Bart Simpson",
+        "discriminant": "3643",
+        "image": "https://pxb.cdn.ciudadanodiario.com.ar/ciudadano/022020/1582380558008/foto.JPG",
+        "status": 1
+    },
+    {
+        "username": "Lisa Simpson",
+        "discriminant": "2409",
+        "image": "https://i.pinimg.com/originals/ef/cb/e0/efcbe0c7b23aba9d3412d00fadb47eec.jpg",
+        "status": 1
+    },
+    {
+        "username": "Maggie Simpson",
+        "discriminant": "2408",
+        "image": "https://i.pinimg.com/originals/54/2f/6f/542f6f41a37ec8055f7822a7c69949f5.jpg",
+        "status": 1
+    },
+    {
+        "username": "Ned Flanders",
+        "discriminant": "2407",
+        "image": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2015/05/14/5fa283960061f.jpeg",
+        "status": 1
+    },
+    {
+        "username": "Krusty the Clown",
+        "discriminant": "2406",
+        "image": "https://i.pinimg.com/originals/e7/c7/15/e7c7152572e9a525ac3ff03c6a9d8a03.jpg",
+        "status": 1
+    }
+]
