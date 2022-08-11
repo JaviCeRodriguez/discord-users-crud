@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 
 from src.db.database import SessionLocal
 from src.users import schemas
-from src.utils.db_queries import get_user_by_discriminant, get_users
+from src.utils.db_queries import get_user_by_discriminant, get_users, create_user
 
 router = APIRouter(tags=["users"], prefix="/users")
 
@@ -30,8 +30,9 @@ async def read_user(discriminant: int, db: Session = Depends(get_db)):
 
 
 @router.post("/", response_model=schemas.User)
-async def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-    return create_user(db, user)
+async def add_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+    new_user = create_user(db, user)
+    return new_user
 
 
 @router.put("/{discriminant}")
